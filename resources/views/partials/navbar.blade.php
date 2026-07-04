@@ -5,7 +5,7 @@
         <a href="/" class="text-2xl font-bold text-amber-800">
             CoffeeHouse
         </a>
-
+  
         <!-- Navigation -->
         <ul class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
             <li>
