@@ -34,12 +34,12 @@
 
             <!-- Search -->
             <button class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
-                🔍
+                <i class="fa-solid fa-magnifying-glass text-gray-700"></i>
             </button>
 
             <!-- Cart -->
             <button class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
-                🛒
+                <i class="fa-solid fa-shopping-cart text-gray-700"></i>
             </button>
 
             <!-- Login -->
