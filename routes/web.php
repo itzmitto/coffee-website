@@ -10,6 +10,22 @@ Route::get('/listings', function () {
     return view('pages.listings');
 });
 
+Route::get('/bag', function () {
+    return view('pages.bag');
+});
+
+Route::get('/product', function () {
+    return view('pages.product');
+});
+
+Route::get('/checkout', function () {
+    return view('pages.checkout');
+});
+
+Route::get('/confirmation', function () {
+    return view('pages.confirmation');
+});
+
 Route::get('/product/beija-flor', function () {
     return view('pages.product-beija-flor');
 });

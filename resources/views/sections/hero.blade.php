@@ -2,10 +2,7 @@
 
     <div class="relative rounded-3xl overflow-hidden">
 
-        <img
-            src="{{ asset('images/image1.png') }}"
-            alt="Coffee"
-            class="w-full aspect-[2.25/1] object-cover">
+        <img src="{{ asset('images/image1.png') }}" alt="Coffee" class="w-full aspect-[2.25/1] object-cover">
 
         <div class="absolute bottom-8 left-8 text-white">
             <h1 class="text-5xl font-bold leading-tight">

@@ -2,8 +2,8 @@
 
 @section('content')
 
-@include('sections.hero')
+    @include('sections.hero')
 
-@include('sections.featured-products')
+    @include('sections.featured-products')
 
 @endsection
