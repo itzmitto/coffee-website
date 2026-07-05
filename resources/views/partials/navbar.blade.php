@@ -4,7 +4,7 @@
 
     <a href="/" class="text-2xl font-bold text-amber-800">
             CoffeeHouse
-        </a>
+        </a>  
   
 
 
