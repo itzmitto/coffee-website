@@ -50,10 +50,10 @@
 
 
         <div class="flex items-center gap-3">
-            <button
+            <a href="listings"
                 class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
                 <i class="fa-solid fa-magnifying-glass text-gray-700"></i>
-            </button>
+            </a>
 
             <a href="/bag"
                 class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
