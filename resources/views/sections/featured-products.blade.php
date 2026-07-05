@@ -56,7 +56,7 @@
                 Pedra Branca
             </h3>
 
-            <p class="font-bold mt-1">$2.10</p>
+            <p class="font-bold mt-1">$4.10</p>
 
             <div class="mt-4 flex justify-between text-sm">
                 <span class="font-semibold">Tasting Notes:</span>

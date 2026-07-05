@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
+Route::get('/listings', function () {
+    return view('pages.listings');
+});
+
 Route::get('/product/beija-flor', function () {
     return view('pages.product-beija-flor');
 });
