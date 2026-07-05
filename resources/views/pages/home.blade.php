@@ -4,4 +4,6 @@
 
 @include('sections.hero')
 
+@include('sections.featured-products')
+
 @endsection
