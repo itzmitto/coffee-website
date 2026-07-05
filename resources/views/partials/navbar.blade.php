@@ -7,28 +7,39 @@
             </a>
     
 
+        <ul class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
 
-            <ul class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-                <li>
-                    <a href="/" class="text-amber-700 border-b-2 border-yellow-400 pb-1">Home</a>
-                </li>
+            <li>
+                <a href="/"
+                    class="{{ request()->is('/') ? 'text-amber-700 border-b-2 border-yellow-400 pb-1' : 'hover:text-amber-700' }}">
+                    Home</a>
+            </li>
 
-                <li>
-                    <a href="/listings" class="hover:text-amber-700 transition">Listings</a>
-                </li>
+            <li>
+                <a href="/listings"
+                    class="{{ request()->is('listings') ? 'text-amber-700 border-b-2 border-yellow-400 pb-1' : 'hover:text-amber-700' }}">
+                    Listings</a>
+            </li>
 
-                <li>
-                    <a href="/product" class="hover:text-amber-700 transition">Product</a>
-                </li>
+            <li>
+                <a href="/product"
+                    class="{{ request()->is('product') ? 'text-amber-700 border-b-2 border-yellow-400 pb-1' : 'hover:text-amber-700' }}">
+                    Product</a>
+            </li>
 
-                <li>
-                    <a href="/about" class="hover:text-amber-700 transition">About</a>
-                </li>
+            <li>
+                <a href="/about"
+                    class="{{ request()->is('about') ? 'text-amber-700 border-b-2 border-yellow-400 pb-1' : 'hover:text-amber-700' }}">
+                    About</a>
+            </li>
 
-                <li>
-                    <a href="/contact" class="hover:text-amber-700 transition">Contact</a>
-                </li>
-            </ul>
+            <li>
+                <a href="/contact"
+                    class="{{ request()->is('contact') ? 'text-amber-700 border-b-2 border-yellow-400 pb-1' : 'hover:text-amber-700' }}">
+                    Contact</a>
+            </li>
+
+</ul>
 
 
 
