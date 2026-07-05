@@ -55,14 +55,15 @@
                 <i class="fa-solid fa-magnifying-glass text-gray-700"></i>
             </button>
 
-            <button
+            <a href="/bag"
                 class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
                 <i class="fa-solid fa-shopping-cart text-gray-700"></i>
-            </button>
+            </a>
 
-            <button class="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-5 py-2 rounded-full transition">
+            <a href="/checkout"
+                class="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-5 py-2 rounded-full transition">
                 Sign In
-            </button>
+            </a>
 
         </div>
 
