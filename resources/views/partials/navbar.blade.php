@@ -1,10 +1,10 @@
 <nav class="bg-white border-b border-gray-200">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<div class="max-w-[1500px] mx-auto px-8 py-4 flex items-center justify-between">
 
 
     <a href="/" class="text-2xl font-bold text-amber-800">
             CoffeeHouse
-        </a>  
+        </a>
   
 
 
