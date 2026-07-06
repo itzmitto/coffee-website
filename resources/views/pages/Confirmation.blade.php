@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="max-w-4xl mx-auto px-6 py-28">
+    <section class="max-w-4xl mx-auto px-6 py-28 animate-fade-up-delay-1">
         <div class="flex flex-col items-center text-center">
             <div class="w-20 h-20 rounded-full bg-yellow-400 flex items-center justify-center mb-8">
                 <i class="fa-solid fa-check text-4xl text-black"></i>

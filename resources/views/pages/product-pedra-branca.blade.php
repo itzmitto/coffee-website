@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="max-w-7xl mx-auto px-6 py-16">
+<section class="max-w-7xl mx-auto px-6 py-16 animate-fade-up-delay-1">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
         <div class="bg-gray-50 rounded-3xl p-10 flex justify-center">
             <img

@@ -11,7 +11,7 @@
 @keyframes fade-up {
     from {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(35px);
     }
 
     to {
@@ -21,15 +21,11 @@
 }
 
 .animate-fade-up {
-    animation: fade-up 0.8s ease-out forwards;
+    opacity: 0;
+    animation: fade-up .8s ease-out forwards;
 }
 
-.animate-fade-up-delay {
-    animation: fade-up 1s ease-out 0.2s forwards;
+.animate-fade-up-delay-1 {
     opacity: 0;
-}
-
-.animate-fade-up-delay-2 {
-    animation: fade-up 1s ease-out 0.4s forwards;
-    opacity: 0;
+    animation: fade-up .8s ease-out .2s forwards;
 }

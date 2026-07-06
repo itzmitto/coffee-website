@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="max-w-3xl mx-auto px-6 py-16">
+    <section class="max-w-3xl mx-auto px-6 py-16 animate-fade-up-delay-1">
         <h1 class="text-5xl font-bold mb-12">Checkout</h1>
         <form action="/confirmation" method="GET">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">

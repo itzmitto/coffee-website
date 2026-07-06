@@ -1,7 +1,7 @@
 <section class="max-w-[1500px] mx-auto px-6 py-16">
-    <h2 class="text-4xl font-bold text-center mb-12">New this season</h2>
+    <h2 class="text-4xl font-bold text-center mb-12 animate-fade-up-delay-1">New this season</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-        <a href="/product/beija-flor" class="group">
+        <a href="/product/beija-flor" class="group animate-fade-up-delay-1">
             <img
                 src="{{ asset('images/beija-flor.png') }}"
                 alt="Beija Flor"
@@ -9,11 +9,11 @@
             <h3 class="mt-4 text-xl font-semibold">Beija Flor</h3>
             <p class="font-bold mt-1">$5.50</p>
             <div class="mt-4 flex justify-between text-sm">
-                <span class="font-semibold">Tasting Notes:</span>
+                <span class="font-semibold ">Tasting Notes:</span>
                 <span class="text-right text-gray-700">Hazelnut, Grape, Milk Chocolate</span>
             </div>
         </a>
-        <a href="/product/el-mirador" class="group">
+        <a href="/product/el-mirador" class="group animate-fade-up-delay-1">
             <img
                 src="{{ asset('images/el-mirador.png') }}"
                 alt="El Mirador"
@@ -25,7 +25,7 @@
                 <span class="text-right text-gray-700">Red Apple, Caramel, Almond</span>
             </div>
         </a>
-        <a href="/product/pedra-branca" class="group">
+        <a href="/product/pedra-branca" class="group animate-fade-up-delay-1">
             <img
                 src="{{ asset('images/pedra-branca.png') }}"
                 alt="Pedra Branca"

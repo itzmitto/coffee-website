@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')    
-    <section class="max-w-[1500px] mx-auto px-6 py-16">
+    <section class="max-w-[1500px] mx-auto px-6 py-16 animate-fade-up-delay-1">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div class="lg:col-span-2">
                 <h1 class="text-5xl font-bold mb-10">Your bag</h1>

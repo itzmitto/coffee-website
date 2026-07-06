@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="max-w-[1500px] mx-auto px-6 py-16">
+    <section class="max-w-[1500px] mx-auto px-6 py-16 animate-fade-up-delay-1">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div class="bg-gray-50 rounded-3xl p-12">
                 <img src="{{ asset('images/beija-flor.png') }}" alt="Beija Flor" class="w-full object-contain">

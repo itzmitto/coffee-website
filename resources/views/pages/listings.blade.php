@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="max-w-[1500px] mx-auto px-6 py-16">
+<section class="max-w-[1500px] mx-auto px-6 py-16 animate-fade-up-delay-1">
     <div class="mb-12">
         <h1 class="text-5xl font-bold text-gray-900">All coffees</h1>
         <p class="text-gray-500 mt-3">Every bean we're roasting this season.</p>
