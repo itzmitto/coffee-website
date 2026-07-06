@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')  
+@section('content')    
 
     <section class="max-w-[1500px] mx-auto px-6 py-16">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">

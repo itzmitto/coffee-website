@@ -48,7 +48,7 @@
         </ul>
 
 
-
+  
         <div class="flex items-center gap-3">
             <a href="listings"
                 class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
