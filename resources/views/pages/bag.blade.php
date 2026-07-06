@@ -1,7 +1,5 @@
 @extends('layouts.app')
-
 @section('content')    
-
     <section class="max-w-[1500px] mx-auto px-6 py-16">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div class="lg:col-span-2">
@@ -46,7 +44,7 @@
                         <span>Total</span>
                         <span>$13.00</span>
                     </div>
-                    <button class="w-full bg-yellow-400 hover:bg-yellow-500 transition rounded-full py-4 font-semibold">Checkout</button>
+                   <a href="/checkout" class="block w-full text-center bg-yellow-400 hover:bg-yellow-500 transition rounded-full py-4 font-semibold">Checkout</a>
                 </div>
             </div>
         </div>

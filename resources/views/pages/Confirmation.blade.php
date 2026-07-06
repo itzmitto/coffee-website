@@ -6,10 +6,8 @@
                 <i class="fa-solid fa-check text-4xl text-black"></i>
             </div>
             <h1 class="text-5xl font-bold text-gray-900 mb-4">Thanks for your order</h1>
-            <p class="text-gray-500 text-lg max-w-lg leading-relaxed mb-10">We're roasting your beans now. You'll get a
-                shipping email within 24 hours.</p>
-            <a href="/listings" class="bg-yellow-400 hover:bg-yellow-500 transition px-10 py-4 rounded-full font-semibold">
-                Continue shopping</a>
+            <p class="text-gray-500 text-lg max-w-lg leading-relaxed mb-10">We're roasting your beans now. You'll get a shipping email within 24 hours.</p>
+            <a href="/listings" class="bg-yellow-400 hover:bg-yellow-500 transition px-10 py-4 rounded-full font-semibold">Continue shopping</a>
         </div>
     </section>
 @endsection
