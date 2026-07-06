@@ -7,3 +7,29 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-up {
+    animation: fade-up 0.8s ease-out forwards;
+}
+
+.animate-fade-up-delay {
+    animation: fade-up 1s ease-out 0.2s forwards;
+    opacity: 0;
+}
+
+.animate-fade-up-delay-2 {
+    animation: fade-up 1s ease-out 0.4s forwards;
+    opacity: 0;
+}
